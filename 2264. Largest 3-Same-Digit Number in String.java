@@ -1,9 +1,6 @@
 class Solution {
     public String largestGoodInteger(String num) {
-        char[] x= num.toCharArray(); 
         String s="";
-        int n=num.length(),max=-1; 
-      
          int Sum=0;
          for(int i=0;i<num.length()-2;i++){
          
